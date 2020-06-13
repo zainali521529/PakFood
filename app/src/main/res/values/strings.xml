@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PakiFood</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register Account</string>
+    <string name="forgot_password">Forgotten Account?</string>
+    <string name="fullname">Full Name</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="recieie">Recipe Of The Day</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home Fragment</string>
+    <string name="home_tv">Home</string>
+    <string name="search">Search</string>
+    <string name="add_food">Add Food</string>
+    <string name="notification">Notification</string>
+    <string name="account">My Account</string>
+    <string name="recipe_day">Recipe Of The Day</string>
+    <string name="gotoaccount">Go To Account Fragment</string>
+    <string name="gotofood">Go To Food Fragment</string>
+    <string name="search_f">Go To Search Fragment</string>
+    <string name="notification_f">Go To Notification Fragment</string>
+    <string name="gotosearch">Go To Search Fragment</string>
+    <string name="gotohome">Go To Home Fragment</string>
+    <string name="_sign_in_with_phone">"Sign Via With Phone Number "</string>
+    <string name="fui_sign_in_withemail">Sign Via Email</string>
+    <string name="_sign_in_with_phoneor">Sign in VIA Phone Number or Email</string>
+    <string name="zain">Zain Khokhar</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home_tv"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/homeFragment"
+        android:orderInCategory="1"/>
+
+    <item android:title="@string/search"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/searchFragment"
+        android:orderInCategory="2"/>
+
+    <item android:title="@string/add_food"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/foodFragment"
+        android:orderInCategory="3"/>
+
+    <item android:title="@string/notification"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/notificationFragment"
+        android:orderInCategory="4"/>
+
+    <item android:title="@string/account"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/accountFragment"
+        android:orderInCategory="5"/>
+
+</menu>

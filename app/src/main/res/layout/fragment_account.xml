@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AccountFragment">
+
+   <ImageView
+       android:layout_width="@dimen/_60sdp"
+       android:layout_height="@dimen/_60sdp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:src="@drawable/zainlogo"
+       android:scaleType="centerCrop"
+       android:id="@+id/profileiv"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zain"
+        app:layout_constraintStart_toStartOf="@+id/profileiv"
+        app:layout_constraintEnd_toEndOf="@id/profileiv"
+        app:layout_constraintTop_toBottomOf="@id/profileiv"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

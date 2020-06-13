@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "581605350411",
+    "firebase_url": "https://pakfodies-1057e.firebaseio.com",
+    "project_id": "pakfodies-1057e",
+    "storage_bucket": "pakfodies-1057e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581605350411:android:63fc589951baabe3e73b0e",
+        "android_client_info": {
+          "package_name": "com.example.pakfodies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581605350411-qe9ut2c30sede6ngv3mr5du2iq6fmodv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pakfodies",
+            "certificate_hash": "d654766aca3ff27a57f5e6cfdefcf6ce93c0ff45"
+          }
+        },
+        {
+          "client_id": "581605350411-2apql5m3e6v9b77jqgppl9uoi6fs6k7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQXVUYBVkq-vMxSXmy43h23DsONEXy85c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581605350411-2apql5m3e6v9b77jqgppl9uoi6fs6k7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

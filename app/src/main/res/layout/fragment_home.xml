@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_240sdp"
+        android:src="@drawable/ic_login_page"
+        android:scaleType="centerCrop"
+        android:id="@+id/image_iv"
+        android:padding="@dimen/_10sdp"
+        android:maxHeight="@dimen/_250sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/image_iv"
+        android:text="@string/gotoaccount"
+        android:padding="@dimen/_14sdp"
+        android:id="@+id/account_btn"
+        android:textSize="@dimen/_10sdp"
+        android:background="@drawable/btn_changing"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
